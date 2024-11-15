@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+.header{
+ padding: 0px;
+ background-color: #ff7e5f;
+
+}
+.header-title {
+    text-emphasis-color: white;
+  text-align: center;
+  color: #fff;
+  margin-left: 220px; /* Adjust margin to push header to the right */
+  margin-right: -180px; /* Add a right margin for symmetry */
+  padding: 5px;
+  font-size: 29px;
+ 
+}
+
+/* Adjust the margin for paragraphs within the header */
+
+
+
+.left-content {
+    text-align: left; /* Align left */
+    margin-left: -700px; /* Adjust margin for left content */
+    margin-bottom: 0px;
+    padding: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+.right-content {
+    text-align: right; /* Align right */
+    margin-right: -400px; /* Adjust margin for right content */
+    margin-bottom: 0px;
+    padding:8px;
+    text-size-adjust: 18px;
+    color: white;
+    font-size: 16px;
+    
+}
+
+/* Style the navigation bar */
+nav {
+    background-color:#feb47b;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin:  10px;
+    
+}
+/* Remove hover effect on navigation links */
+nav a:hover {
+    color: red; /* Set the color to the default color */
+    background-color: transparent; /* Set background color to transparent */
+}
+
+.login {
+    margin-left: auto; /* This will push the login button to the right */
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* Apply styles to the section */
+section {
+    background-image: url(go.jpg); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-attachment: fixed;
+    background-size: 100% 100%; /* You can adjust the percentage or use other values like 'cover', 'contain', etc. */
+    background-repeat: no-repeat;
+    padding: 300px;
+    font-size: 20px;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding for spacing */
+    text-align: center; /* Center align text */
+}
+
+/* Add your existing styles */
+#homeSection {
+    background-image: url(go.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 300px;
+    font-size: 20px;
+    color: white; /* Set the text color to white */
+    
+}
+
+#productsSection {
+    background-image: none;
+    background-color: white; 
+    padding: 300px;
+    font-size: 20px;
+    color: black; 
+}
+
+
+.section-header {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+   /* z-index: 1; /* Ensure the text is on top of the overlay */
+}
+
+
+
+/* CSS for Login Modal */
+#loginModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: none;
+    width: 705%; /* Adjust the width as needed */
+    max-width: 300px; /* Adjust the maximum width as needed */
+    height: 46%; /* Adjust the height as needed */
+    max-height: 150%; /* Adjust the maximum height as needed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.close:hover{
+    background-color: #c82333;
+}
+.close:focus {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-danger {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.error-message {
+    color: red;
+}
+
+/* Hide the close button */
+.error-message .close {
+    display: none;
+}

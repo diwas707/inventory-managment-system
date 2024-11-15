@@ -1,0 +1,70 @@
+/* Body Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+/* Panel Styles */
+.panel-default {
+    border-color: greenyellow;
+    margin-left: -300px;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+/* Adjust panel width */
+.col-md-4 .panel-default {
+    width: 200%;
+}
+
+.col-md-12 .panel-default {
+    width: 100%; /* Make both panels wider */
+}
+
+/* Move recently added products panel up */
+.col-md-4 {
+    margin-top: -250px; /* Adjust as needed */
+}
+
+/* Avatar Styles */
+td img.img-thumbnail {
+    width: 150px; /* Increase width to desired size */
+    height: 150px; /* Increase height to desired size */
+    vertical-align: top;
+}
+
+.img-avatar {
+    width: 64px; /* Adjust size proportionally if needed */
+    height: 64px; /* Adjust size proportionally if needed */
+}
+
+/* Media Object Styles */
+.media-left {
+    padding-right: 15px;
+}
+
+.media-heading {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-group-item p {
+    margin: 0;
+    font-size: 14px;
+}
+#showContactForm {
+      
+    margin-right:390px; /* Add margin to the right */
+}
+.custom-btn {
+    background-color: #1bbcb4;
+}
